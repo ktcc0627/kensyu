@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+
+body{
+	background: #DCDCDC;
+	margin: 0px;
+	height: 100vh;
+	width: 100vw;
+
+}
+.section-title{
+	border-bottom:0.5px solid black;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	padding-bottom: 15px;
+    padding-top:  30px;
+    font-size:  40px;
+    padding-left: 60px;
+    letter-spacing: 0.2em;
+    margin: 0px;
+}
+
+
+p{
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	padding-left: 30px;
+}
+
+.sentense, .accompanySentense{
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: serif;
+	margin-left: 70px;
+
+}
+
+.company{
+	width: 500px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: serif;
+	margin-left: 70px;
+}
+
+.contact-submit{
+
+}
+
+.label{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.button{
+	border-top: 0.5px solid black;
+	margin-top: 40px;
+	padding-top: 15px;
+	padding-left: 80px;
+}
+
+.button2,.button3,.button4{
+	width: 100px;
+	height: 40px;
+	font-size: 1.2em;
+	font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	border-radius: 5px;
+}
+
+.button3,.button4{
+	margin-left:20px;
+}
+
+.require{
+	color: white;
+	border: 1px solid red;
+	background: red;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.selecter{
+	width: 100px;
+	height: 35px;
+	font-size: 20px;
+}
+
+.select_date{
+	margin-left: 70px;
+}
+
+.option-element, .selectElement, .exitTime{
+	width: 80px;
+	height: 35px;
+	font-size: 20px;
+	direction: rtl;
+}
+
+.time-element{
+	margin-left:70px;
+}
+
+.any{
+	color: white;
+	border: 1px solid gray;
+	background: gray;
+	font-size: 15px;
+	margin-left: 10px;
+}
+table{
+	margin-left: 70px;
+}
+
+#purpose2{
+	margin-left: 273px;
+}
+
+

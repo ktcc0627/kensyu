@@ -1,0 +1,191 @@
+@CHARSET "UTF-8";
+
+ @import url(https://fonts.googleapis.com/css?family=Bitter);
+    body {
+      margin: 0;
+      font-family: 'Bitter', serif;
+      text-align: center;
+    }
+    .holder,
+    .first,
+    .second,
+    .third {
+      height: 100vh;
+      width: 100vw;
+    }
+    .first,
+    .second,
+    .third {
+      position: absolute;
+    }
+    .second,
+    .third {
+      opacity: 0;
+    }
+    .holder {
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      background: -webkit-linear-gradient(223deg, #EBEBEB 0%, #C5C6C8 100%), -webkit-linear-gradient(295deg, rgba(255, 255, 255, 0.5) 5%, rgba(0, 0, 0, 0.5) 100%);
+  	  background: linear-gradient(227deg, #EBEBEB 0%, #C5C6C8 100%), linear-gradient(155deg, rgba(255, 255, 255, 0.5) 5%, rgba(0, 0, 0, 0.5) 100%);
+  	  background-blend-mode: multiply; }
+
+
+	 .first {
+      /* animation: first 10s infinite;
+      background: linear-gradient(#5ff8ca, #60e08c); */
+      z-index: 10;
+    }
+    /*   @keyframes first {
+        0% {opacity: 1.0;}
+        10% {opacity: 0.8;}
+        20% {opacity: 0.6;}
+        30% {opacity: 0.4;}
+        40% {opacity: 0.2;}
+        50% {opacity: 0.1;}
+        60% {opacity: 0.2;}
+        70% {opacity: 0.4;}
+        80% {opacity: 0.6;}
+        90% {opacity: 0.8;}
+        100% {opacity: 1.0;}
+      } */
+
+    .second {
+/*       animation: second 10s infinite; animation-delay: 2s;
+      background: linear-gradient(#19eaa6, #00a1f0); */
+      z-index: 20;
+    }
+      /* @keyframes second {
+        0% {opacity: 0;}
+        10% {opacity: 0.2;}
+        20% {opacity: 0.4;}
+        30% {opacity: 0.6;}
+        40% {opacity: 0.8;}
+        50% {opacity: 1.0;}
+        60% {opacity: 0.8;}
+        70% {opacity: 0.6;}
+        80% {opacity: 0.4;}
+        90% {opacity: 0.2;}
+        100% {opacity: 0;}
+      } */
+
+   /* .third {
+      animation: third 10s infinite;
+      animation-delay: 8s;
+      background: linear-gradient(#aab7f8, #ff75c6);
+      z-index: 30;
+    }
+      @keyframes third {
+        0% {opacity: 0;}
+        10% {opacity: 0.2;}
+        20% {opacity: 0.4;}
+        30% {opacity: 0.6;}
+        40% {opacity: 0.8;}
+        50% {opacity: 1.0;}
+        60% {opacity: 0.8;}
+        70% {opacity: 0.6;}
+        80% {opacity: 0.4;}
+        90% {opacity: 0.2;}
+        100% {opacity: 0;}
+      } */
+
+    .txt {
+      margin-top: calc(35vh - 43px);
+      position: absolute;
+      width: 100%;
+      z-index: 1000;
+    }
+    h1 {
+      font-size: 60px;
+      font-weight: 100;
+      margin: 0;
+      color: #FFF;
+    }
+    p {
+      font-size: 40px;
+      margin-top: 26px;
+    }
+
+    .length {
+    	height:15px;
+    	margin:0;
+    }
+difference
+
+
+    .button-wrapper {
+
+        margin: 20px 5px;
+        padding: 5px;
+    }
+
+    .button {
+        background: none;
+        border: solid 2px #FFF;
+        border-radius: 6px 6px 6px 6px;
+        padding: 2px;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        transition: all .25s ease-in-out .25s;
+        margin: 0 auto;
+        width: 250px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.3em;
+    }
+
+    a {
+    	color: #FFF;
+    }
+
+    span {
+        display: block;
+        padding: 15px 30px;
+
+        z-index: 100;
+        position: relative;
+        transition: all .25s ease-in-out .25s;
+    }
+    .button:hover span {
+
+        color: black;
+        transition: all .25s ease-in-out .25s;
+    }
+    .button:after {
+        bottom: -100%;
+        right: -100%;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #FFF;
+        transition: all .25s ease-in-out .5s;
+    }
+    .button:hover:after {
+        right: 0;
+        bottom: 0;
+        transition: all ease-in-out .25s;
+    }
+    .button:before {
+        top: -100%;
+        left: -100%;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #FFF;
+        transition: all .25s ease-in-out .5s;
+    }
+    .button:hover:before {
+        left: 0;
+        top: 0;
+        transition: all ease-in-out .25s;
+    }
+
+
+
+Resources
+
+

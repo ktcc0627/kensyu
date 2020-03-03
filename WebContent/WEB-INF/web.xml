@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>jsp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>entry</servlet-name>
+    <servlet-class>Entry</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>entry</servlet-name>
+    <url-pattern>/entry</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>admin</servlet-name>
+    <servlet-class>Admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>admin</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>week</servlet-name>
+    <servlet-class>week.WeekReturn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>week</servlet-name>
+    <url-pattern>/week/test</url-pattern>
+  </servlet-mapping>
+</web-app>
